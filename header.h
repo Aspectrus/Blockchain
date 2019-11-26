@@ -198,5 +198,10 @@ void test2() {
     cout << same;
 }
 
+void menu()
+{
+    cout << "Press 1 for v0.1\n";
+    cout << "Press 2 for v0.2+v0.3\n";
 
+}
 #endif //C___PROGRAMS_HEADER_H
