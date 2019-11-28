@@ -25,7 +25,7 @@ public:
 
 class transaction {
 public:
-    int id;
+
     int sender;
     long amount;
     int reciever;
@@ -183,7 +183,7 @@ vector<transaction> Generate_Transactions(vector<person> Person) {
             recieverid = randomnumber(0, 999);
         }
         int amount = randomnumber(100, 1000000);
-        Transactions[i].id = i;
+
         Transactions[i].sender = senderid;
         Transactions[i].reciever = recieverid;
         Transactions[i].amount = amount;
